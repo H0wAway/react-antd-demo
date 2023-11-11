@@ -26,7 +26,7 @@ function App() {
    */
   function handlLocalAdd(e) {
     console.info("click ", e);
-    setDatas([
+    setFilteredData([
       // ...datas 是 JavaScript 的扩展运算符（spread operator），它用于将一个数组中的所有元素展开到另一个数组中。
       ...datas,
       { name: "new", url: "new" },
